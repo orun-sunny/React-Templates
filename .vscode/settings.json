@@ -1,0 +1,6 @@
+{
+    "editor.defaultFormatter": "chouzz.vscode-better-align",
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    }
+}
