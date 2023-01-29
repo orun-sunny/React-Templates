@@ -507,7 +507,7 @@ const Templates = () => {
                 </tr>
             </table>
             
-            <h1>this is invoice par</h1>
+            <h1>this is invoice part</h1>
 
 
         </>
