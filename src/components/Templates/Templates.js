@@ -509,6 +509,75 @@ const Templates = () => {
             
             <h1>this is invoice part</h1>
 
+        <div style={{paddingBottom:"30px"}}>
+
+
+            <table border="0" cellPadding="0" cellSpacing="0" style={{width:"100%"}}>
+                <tr>
+                    <td align="center">
+                        <img src="https://selopia.com/wp-content/uploads/2022/08/logo_white.png" alt="Company Logo"
+                             style={{backgroundColor: "#f41b1b", width: "200px", height: "50px"}}/>
+                    </td>
+                </tr>
+            </table>
+            <br/>
+            <table align="center" border="1" cellPadding="10" cellSpacing="0"
+                   style={{borderCollapse: "collapse",width: "60%"}}>
+                <thead style={{backgroundColor: "lightgray"}}>
+                <tr>
+                    <th colSpan="2" style={{padding: "10px", fontSize: "18px"}}>Invoice</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td style={{padding: "10px", fontWeight: "bold"}}>Customer Name:</td>
+                    <td style={{padding: "10px"}}>John Doe</td>
+                </tr>
+                <tr>
+                    <td style={{padding: "10px", fontWeight: "bold"}}>Customer Address:</td>
+                    <td style={{padding: "10px"}}>123 Main St, Anytown, USA 12345</td>
+                </tr>
+                <tr>
+                    <td style={{padding: "10px", fontWeight: "bold"}}>Invoice Date:</td>
+                    <td style={{padding: "10px"}}>01/01/2023</td>
+                </tr>
+                <tr>
+                    <td style={{padding: "10px", fontWeight: "bold"}}>Invoice Number:</td>
+                    <td style={{padding: "10px"}}>INV-12345</td>
+                </tr>
+                </tbody>
+            </table>
+            <br/>
+            <table align="center" border="1" cellPadding="10" cellSpacing="0" width="100%"
+                   style={{borderCollapse: "collapse",width: "60%", paddingBottom:"15px"}}>
+                <thead style={{backgroundColor: "lightgray"}}>
+                <tr>
+                    <th style={{padding: "10px", fontSize: "14px"}}>Item</th>
+                    <th style={{padding: "10px", fontSize: "14px"}}>Description</th>
+                    <th style={{padding: "10px", fontSize: "14px"}}>Price</th>
+                    <th style={{padding: "10px", fontSize: "14px"}}>Quantity</th>
+                    <th style={{padding: "10px", fontSize: "14px"}}>Total</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td style={{padding: "10px"}}>Item 1</td>
+                    <td style={{padding: "10px"}}>Description of Item 1</td>
+                    <td style={{padding: "10px"}}>$100.00</td>
+                    <td style={{padding: "10px"}}>1</td>
+                    <td style={{padding: "10px"}}>$100.00</td>
+                </tr>
+                <tr>
+                    <td style={{padding: "10px"}}>Item 2</td>
+
+
+                </tr>
+                </tbody>
+            </table>
+
+
+        </div>
+
 
         </>
     );
