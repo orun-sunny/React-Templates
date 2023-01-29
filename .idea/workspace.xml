@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59463342-4490-4fea-8902-fbe4a95e5c58" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="59463342-4490-4fea-8902-fbe4a95e5c58" name="Changes" comment="lastpart">
       <change beforePath="$PROJECT_DIR$/src/components/Templates/Templates.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Templates/Templates.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,11 +53,41 @@
       <updated>1674741455386</updated>
       <workItem from="1674741456815" duration="2054000" />
       <workItem from="1674965156315" duration="10105000" />
-      <workItem from="1674979627112" duration="9333000" />
+      <workItem from="1674979627112" duration="9692000" />
     </task>
+    <task id="LOCAL-00001" summary="lastpart">
+      <created>1674996666665</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674996666665</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lastpart">
+      <created>1674996750597</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674996750597</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lastpart" />
+    <option name="LAST_COMMIT_MESSAGE" value="lastpart" />
   </component>
 </project>
