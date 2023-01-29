@@ -75,15 +75,7 @@ const Templates = () => {
                                                     border: "1em solid #fff"
                                                 }}>
                                                     <p style={{margin: "0 0 0.75em 0", lineHeight: "0"}}>
-                                                        {/* <!--      LinkedIn logo            --> */}
-                                                        {/* <a href="https://www.linkedin.com/company/doppler-health" style="display:inline-block;text-decoration:none;margin: 0 5px;">
-                    <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2aWV3Qm94PSIyLjUgMi44NzMgMjAgMjAiIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGRlZnM+CiAgICA8Y2xpcFBhdGggaWQ9ImNsaXAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiBmaWxsPSJ3aGl0ZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMi41IDIuODcyNTYpIi8+CiAgICA8L2NsaXBQYXRoPgogIDwvZGVmcz4KICA8ZyBjbGlwLXBhdGg9InVybCgjY2xpcDApIj4KICAgIDxwYXRoIGQ9Ik0yMS42MjUgMi44NzI1NkgzLjM3NUMyLjg3NSAyLjg3MjU2IDIuNSAzLjI0NzU2IDIuNSAzLjc0NzU2VjIyLjEyMjZDMi41IDIyLjQ5NzYgMi44NzUgMjIuODcyNiAzLjM3NSAyMi44NzI2SDIxLjc1QzIyLjI1IDIyLjg3MjYgMjIuNjI1IDIyLjQ5NzYgMjIuNjI1IDIxLjk5NzZWMy43NDc1NkMyMi41IDMuMjQ3NTYgMjIuMTI1IDIuODcyNTYgMjEuNjI1IDIuODcyNTZaTTguMzc1IDE5Ljg3MjZINS41VjEwLjM3MjZIOC41VjE5Ljg3MjZIOC4zNzVaTTcgOS4xMjI1NkM2IDkuMTIyNTYgNS4yNSA4LjI0NzU2IDUuMjUgNy4zNzI1NkM1LjI1IDYuMzcyNTYgNiA1LjYyMjU2IDcgNS42MjI1NkM4IDUuNjIyNTYgOC43NSA2LjM3MjU2IDguNzUgNy4zNzI1NkM4LjYyNSA4LjI0NzU2IDcuODc1IDkuMTIyNTYgNyA5LjEyMjU2Wk0xOS41IDE5Ljg3MjZIMTYuNVYxNS4yNDc2QzE2LjUgMTQuMTIyNiAxNi41IDEyLjc0NzYgMTUgMTIuNzQ3NkMxMy41IDEyLjc0NzYgMTMuMjUgMTMuOTk3NiAxMy4yNSAxNS4yNDc2VjE5Ljk5NzZIMTAuMjVWMTAuMzcyNkgxMy4xMjVWMTEuNjIyNkMxMy41IDEwLjg3MjYgMTQuNSAxMC4xMjI2IDE1Ljg3NSAxMC4xMjI2QzE4Ljg3NSAxMC4xMjI2IDE5LjM3NSAxMi4xMjI2IDE5LjM3NSAxNC42MjI2VjE5Ljg3MjZIMTkuNVoiIHN0eWxlPSJmaWxsOiByZ2IoMTc3LCAxODgsIDIwMSk7Ii8+CiAgPC9nPgo8L3N2Zz4=" width="30px" height="30px"/>
-                  </a> */}
-                                                        {/* <!--      Facebook logo            --> */}
-                                                        {/* <a href="https://www.facebook.com/Dopplerhealth" style="display:inline-block;text-decoration:none;margin: 0 5px;">
-                    <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2aWV3Qm94PSIzNzIuMjUyIC0yNzkuNTEzIDE5NC4yIDE5MyIgd2lkdGg9IjE5NC4yIiBoZWlnaHQ9IjE5MyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMTA2MC44LDEwMC44YzAtNTMuNi00My41LTk3LjEtOTcuMS05Ny4xcy05Ny4xLDQzLjUtOTcuMSw5Ny4xYzAsNDguNSwzNS41LDg4LjcsODIsOTUuOXYtNjcuOWgtMjQuOHYtMjhoMjQuOFY3OS40IGMwLTI0LjMsMTQuNC0zNy44LDM2LjYtMzcuOGMxMC42LDAsMjEuNiwyLDIxLjYsMnYyMy43aC0xMi4yYy0xMi4xLDAtMTUuOSw3LjYtMTUuOSwxNS4ydjE4LjJoMjdsLTQuMywyOGgtMjIuN3Y2Ny45IEMxMDI1LjMsMTg5LjUsMTA2MC44LDE0OS4zLDEwNjAuOCwxMDAuOHoiIHN0eWxlPSJmaWxsOiByZ2IoMTc3LCAxODgsIDIwMSk7IiB0cmFuc2Zvcm09Im1hdHJpeCgxLCAwLCAwLCAxLCAtNDk0LjM0NzcxNywgLTI4My4yMTMyNTcpIi8+Cjwvc3ZnPg==" width="30px" height="30px">
-                  </a> */}
-                                                        {/* <!--     Instagram logo               --> */}
+
                                                         <a href="https://www.instagram.com/dopplerhealth/" style={{
                                                             display: "inline-block",
                                                             textDecoration: "none",
@@ -109,11 +101,11 @@ const Templates = () => {
                                                 </td>
                                             </tr>
                                         </table>
-                                        {/* <!--[if mso]> */}
+
                                     </td>
                                 </tr>
                             </table>
-                            {/* <![endif]--> */}
+
                         </td>
                     </tr>
                 </table>
