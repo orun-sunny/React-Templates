@@ -498,77 +498,641 @@ const Templates = () => {
                     </td>
                 </tr>
             </table>
-            
+
             <h1>this is invoice part</h1>
 
-        <div style={{paddingBottom:"30px"}}>
+            <div>
 
 
-            <table border="0" cellPadding="0" cellSpacing="0" style={{width:"100%"}}>
-                <tr>
-                    <td align="center">
-                        <img src="https://selopia.com/wp-content/uploads/2022/08/logo_white.png" alt="Company Logo"
-                             style={{backgroundColor: "#f41b1b", width: "200px", height: "50px"}}/>
-                    </td>
-                </tr>
-            </table>
-            <br/>
-            <table align="center" border="1" cellPadding="10" cellSpacing="0"
-                   style={{borderCollapse: "collapse",width: "60%"}}>
-                <thead style={{backgroundColor: "lightgray"}}>
-                <tr>
-                    <th colSpan="2" style={{padding: "10px", fontSize: "18px"}}>Invoice</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td style={{padding: "10px", fontWeight: "bold"}}>Customer Name:</td>
-                    <td style={{padding: "10px"}}>John Doe</td>
-                </tr>
-                <tr>
-                    <td style={{padding: "10px", fontWeight: "bold"}}>Customer Address:</td>
-                    <td style={{padding: "10px"}}>123 Main St, Anytown, USA 12345</td>
-                </tr>
-                <tr>
-                    <td style={{padding: "10px", fontWeight: "bold"}}>Invoice Date:</td>
-                    <td style={{padding: "10px"}}>01/01/2023</td>
-                </tr>
-                <tr>
-                    <td style={{padding: "10px", fontWeight: "bold"}}>Invoice Number:</td>
-                    <td style={{padding: "10px"}}>INV-12345</td>
-                </tr>
-                </tbody>
-            </table>
-            <br/>
-            <table align="center" border="1" cellPadding="10" cellSpacing="0" width="100%"
-                   style={{borderCollapse: "collapse",width: "60%", paddingBottom:"15px"}}>
-                <thead style={{backgroundColor: "lightgray"}}>
-                <tr>
-                    <th style={{padding: "10px", fontSize: "14px"}}>Item</th>
-                    <th style={{padding: "10px", fontSize: "14px"}}>Description</th>
-                    <th style={{padding: "10px", fontSize: "14px"}}>Price</th>
-                    <th style={{padding: "10px", fontSize: "14px"}}>Quantity</th>
-                    <th style={{padding: "10px", fontSize: "14px"}}>Total</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td style={{padding: "10px"}}>Item 1</td>
-                    <td style={{padding: "10px"}}>Description of Item 1</td>
-                    <td style={{padding: "10px"}}>$100.00</td>
-                    <td style={{padding: "10px"}}>1</td>
-                    <td style={{padding: "10px"}}>$100.00</td>
-                </tr>
-                <tr>
-                    <td style={{padding: "10px"}}>Item 2</td>
+                <div>
+                    <table width="100%" border="0" cellPadding="0" cellSpacing="0" align="center" className="fullTable"
+                           bgcolor="#e1e1e1">
+                        <tr>
+                            <td height="20"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table width="600" border="0" cellPadding="0" cellSpacing="0" align="center"
+                                       className="fullTable"
+                                       bgcolor="#ffffff" style={{borderRadius: "10px 10px 0 0"}}>
+                                    <tr>
+                                        <td height="40"></td>
+                                    </tr>
+                                    <tr>
+                                        <td height="30"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <table width="480" border="0" cellPadding="0" cellSpacing="0" align="center"
+                                                   className="fullPadding">
+                                                <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <table width="220" border="0" cellPadding="0" cellSpacing="0"
+                                                               align="left"
+                                                               className="col">
+                                                            <tbody>
+                                                            <tr>
+                                                                <td align="left"><img
+                                                                    src="https://www.shutterstock.com/image-vector/circle-line-simple-design-logo-260nw-2174926871.jpg"
+                                                                    width="32" height="32" alt="logo" border="0"/></td>
+                                                            </tr>
+                                                            <tr className="hiddenMobile">
+                                                                <td height="40"></td>
+                                                            </tr>
+                                                            <tr className="visibleMobile">
+                                                                <td height="20"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style={{
+                                                                    fontSize: "12px",
+                                                                    color: "#5b5b5b",
+                                                                    fontFamily: 'Open Sans, sans-serif',
+                                                                    lineHeight: "18px",
+                                                                    verticalAlign: "top",
+                                                                    textAlign: "left"
+                                                                }}>
+                                                                    Hello, .
+                                                                    <br/> Thank you for shopping from our store and for
+                                                                    your
+                                                                    order from
+                                                                    selopia Ecommerce.
+                                                                </td>
+                                                            </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <table width="220" border="0" cellPadding="0" cellSpacing="0"
+                                                               align="right"
+                                                               className="col">
+                                                            <tbody>
+                                                            <tr>
+                                                                <td height="20"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td height="5"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style={{
+                                                                    fontSize: "18px",
+                                                                    color: "rgb(55,61,160)",
+                                                                    letterSpacing: "-1px",
+                                                                    fontFamily: 'Open Sans, sanserif',
+                                                                    lineHeight: "0",
+                                                                    verticalAlign: 'top',
+                                                                    textAlign: "right"
+                                                                }}>
+                                                                    Payment Invoice
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr className="hiddenMobile">
+                                                                <td height="50"></td>
+                                                            </tr>
+                                                            <tr className="visibleMobile">
+                                                                <td height="20"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style={{
+                                                                    fontSize: "12px",
+                                                                    color: "#5b5b5b",
+                                                                    fontFamily: 'Open Sans, sans-serif',
+                                                                    lineHeight: "18px",
+                                                                    verticalAlign: "top",
+                                                                    textAlign: "right"
+                                                                }}>
+                                                                    <small>ORDER</small> #800000025<br/>
+                                                                    <small>MM/ DD/ 2022</small>
+                                                                </td>
+                                                            </tr>
 
 
-                </tr>
-                </tbody>
-            </table>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    {/*Header*/}
+                    {/*Order Details*/}
+                    <table width="100%" border="0" cellPadding="0" cellSpacing="0" align="center" className="fullTable"
+                           bgcolor="#e1e1e1">
+                        <tbody>
+                        <tr>
+                            <td>
+                                <table width="600" border="0" cellPadding="0" cellSpacing="0"
+                                       className="fullTable"
+                                       bgcolor="#ffffff"
+                                style={{
+                                    alignItems:"center",
+
+                                }}  align="center">
+                                    <tbody>
+                                    <tr>
+                                        <tr>
+                                            <td height="60"></td>
+                                        </tr>
+                                        <tr>
+                                            <td height="40"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <table width="580" border="0" cellPadding="0" cellSpacing="0"
+                                                       align="center"
+                                                       className="fullPadding">
+                                                    <tbody>
+                                                    <tr>
+                                                        <th style={{
+                                                            fontSize: "12px",
+                                                            fontFamily: 'Open Sans, sans-serif',
+                                                            color: "#5b5b5b",
+                                                            fontWeight: "normal",
+                                                            lineHeight: "1",
+                                                            verticalAlign: "top",
+                                                            padding: "12px 10px 7px 8px"
+
+                                                        }}
+                                                            width="52%" align="left">
+                                                            Item
+                                                        </th>
 
 
-        </div>
+                                                        <th style={{
+                                                            fontSize: "12px",
+                                                            fontFamily: 'Open Sans, sans-serif',
+                                                            color: "#5b5b5b",
+                                                            fontWeight: "normal",
+                                                            lineHeight: "1",
+                                                            verticalAlign: "top",
+                                                            padding: " 0 0 7px"
+                                                        }}
+                                                            align="left">
+                                                            <small>SKU</small>
+                                                        </th>
+                                                        <th style={{
+                                                            fontSize: "12px",
+                                                            fontFamily: 'Open Sans, sans-serif',
+                                                            color: "#5b5b5b",
+                                                            fontWeight: "normal",
+                                                            lineHeight: 1,
+                                                            verticalAlign: "top",
+                                                            padding: "0 0 7px"
+                                                        }}
+                                                            align="center">
+                                                            Quantity
+                                                        </th>
+                                                        <th style={{
+                                                            fontSize: "12px",
+                                                            fontFamily: 'Open Sans, sans-serif',
+                                                            color: "#1e2b33",
+                                                            fontWeight: "normal",
+                                                            lineHeight: "1",
+                                                            verticalAlign: "top",
+                                                            padding: "0 0 7px"
+                                                        }}
+                                                            align="right">
+                                                            Subtotal
+                                                        </th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td height="1" style={{background: "#bebebe"}} colSpan="4"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td height="10" colSpan="4"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style={{
+                                                            fontSize: "12px",
+                                                            fontFamily: 'Open Sans, sans-serif',
+                                                            color: "rgb(26,33,164)",
+                                                            lineHeight: "18px",
+                                                            verticalAlign: "top",
+                                                            padding: "20px 0",
+                                                            paddingLeft:"10px",
+                                                        }}
+                                                            className="article">
+                                                            Best Speaker in Budget
+                                                        </td>
+                                                        <td style={{
+                                                            fontSize: "12px",
+                                                            fontFamily: 'Open Sans, sans-serif',
+                                                            color: "#646a6e",
+                                                            lineHeight: "18px",
+                                                            verticalAlign: "top",
+                                                            padding: "10px 0",
+                                                            paddingLeft:"10px",
+                                                        }}>
+                                                            <small>orunnnnn</small></td>
+                                                        <td style={{
+                                                            fontSize: "12px",
+                                                            fontFamily: 'Open Sans, sans-serif',
+                                                            color: "#646a6e",
+                                                            lineHeight: "18px",
+                                                            verticalAlign: "top",
+                                                            padding: "10px 0"
+                                                        }}
+                                                            align="center">1
+                                                        </td>
+                                                        <td style={{
+                                                            fontSize: "12px",
+                                                            fontFamily: 'Open Sans, sans-serif',
+                                                            color: "#04085a",
+                                                            lineHeight: "18px",
+                                                            verticalAlign: "top",
+                                                            padding: "10px 0"
+                                                        }}
+                                                            align="right">$299.95
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td height="1" colSpan="4"
+                                                            style={{borderBottom: "1px solid #e4e4e4"}}></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style={{
+                                                            fontSize: "12px",
+                                                            fontFamily: 'Open Sans, sans-serif',
+                                                            color: "rgb(26,33,164)",
+                                                            lineHeight: "18px",
+                                                            verticalAlign: "top",
+                                                            padding: "20px 0",
+                                                            paddingLeft:"10px",
+                                                        }}
+                                                            className="article">MotionView Products Headphone
+                                                        </td>
+                                                        <td style={{
+                                                            fontSize: "12px",
+                                                            fontFamily: 'Open Sans, sans-serif',
+                                                            color: "#646a6e",
+                                                            lineHeight: "18px",
+                                                            verticalAlign: "top",
+                                                            padding: "10px 0"
+                                                        }}>
+                                                            <small>orunnnnn/a</small></td>
+                                                        <td style={{
+                                                            fontSize: "12px",
+                                                            fontFamily: 'Open Sans, sans-serif',
+                                                            color: "#646a6e",
+                                                            lineHeight: "18px",
+                                                            verticalAlign: "top",
+                                                            padding: "10px 0"
+                                                        }}
+                                                            align="center">
+                                                        </td>
+                                                        <td style={{
+                                                            fontSize: "12px",
+                                                            fontFamily: 'Open Sans, sans-serif',
+                                                            color: "#1e2b33",
+                                                            lineHeight: "18px",
+                                                            verticalAlign: "top",
+                                                            padding: "10px 0"
+                                                        }}
+                                                            align="right">$29.95
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td height="1" colSpan="4"
+                                                            style={{borderBottom: "1px solid #e4e4e4"}}></td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="20"></td>
+                                        </tr>
+                                    </tr>
+
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                    <table width="100%" border="0" cellPadding="0" cellSpacing="0" align="center" className="fullTable"
+                           bgcolor="#e1e1e1">
+                        <tbody>
+                        <tr>
+                            <td>
+                                <table width="600" border="0" cellPadding="0" cellSpacing="0" align="center"
+                                       className="fullTable"
+                                       bgcolor="#ffffff">
+                                    <tbody>
+                                    <tr>
+                                        <td>
+
+                                            {/*Table Total */}
+                                            <table width="480" border="0" cellPadding="0" cellSpacing="0" align="center"
+                                                   className="fullPadding">
+                                                <tbody>
+                                                <tr>
+                                                    <td style={{
+                                                        fontSize: "12px",
+                                                        fontFamily: 'Open Sans, sans-serif',
+                                                        color: "#646a6e",
+                                                        lineHeight: "22px",
+                                                        verticalAlign: "top",
+                                                        textAlign: "right"
+                                                    }}>
+                                                        Subtotal
+                                                    </td>
+                                                    <td style={{
+                                                        fontSize: "12px",
+                                                        fontFamily: 'Open Sans, sans-serif',
+                                                        color: "#646a6e",
+                                                        lineHeight: "22px",
+                                                        verticalAlign: "top",
+                                                        textAlign: "right",
+                                                        whiteSpace: "nowrap"
+                                                    }}
+                                                        width="80">
+                                                        $329.90
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style={{
+                                                        fontSize: "12px",
+                                                        fontFamily: 'Open Sans, sans-serif',
+                                                        color: "#646a6e",
+                                                        lineHeight: "22px",
+                                                        verticalAlign: "top",
+                                                        textAlign: "right"
+                                                    }}>
+                                                        Shipping &amp; Handling
+                                                    </td>
+                                                    <td style={{
+                                                        fontSize: "12px",
+                                                        fontFamily: 'Open Sans, sans-serif',
+                                                        color: "#646a6e",
+                                                        lineHeight: "22px",
+                                                        verticalAlign: "top",
+                                                        textAlign: "right"
+                                                    }}>
+                                                        $15.00
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style={{
+                                                        fontSize: "12px",
+                                                        fontFamily: 'Open Sans, sans-serif',
+                                                        color: "#000",
+                                                        lineHeight: "22px",
+                                                        verticalAlign: "top",
+                                                        textAlign: "right"
+                                                    }}>
+                                                        <strong>Grand Total (Incl.Tax)</strong>
+                                                    </td>
+                                                    <td style={{
+                                                        fontSize: "12px",
+                                                        fontFamily: 'Open Sans, sans-serif',
+                                                        color: "#000",
+                                                        lineHeight: "22px",
+                                                        verticalAlign: "top",
+                                                        textAlign: "right"
+                                                    }}>
+                                                        <strong>$344.90</strong>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style={{
+                                                        fontSize: "12px",
+                                                        fontFamily: 'Open Sans, sans-serif',
+                                                        color: "#b0b0b0",
+                                                        lineHeight: "22px",
+                                                        verticalAlign: "top",
+                                                        textAlign: "right"
+                                                    }}>
+                                                        <small>TAX</small></td>
+                                                    <td style={{
+                                                        fontSize: "12px",
+                                                        fontFamily: 'Open Sans, sans-serif',
+                                                        color: "#b0b0b0",
+                                                        lineHeight: "22px",
+                                                        verticalAlign: "top",
+                                                        textAlign: "right"
+                                                    }}>
+                                                        <small>$72.40</small>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                            {/*Table Total */}
+
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    {/*Total */}
+                    {/* Information */}
+                    <table width="100%" border="0" cellPadding="0" cellSpacing="0" align="center" className="fullTable"
+                           bgcolor="#e1e1e1"
+                    >
+
+                        <tr>
+                            <td>
+                                <table width="600" border="0" cellPadding="0" cellSpacing="0" align="center"
+                                       className="fullTable"
+                                       bgcolor="#ffffff">
+                                    <tbody>
+                                    <tr>
+                                        <tr>
+                                            <td height="60"></td>
+                                        </tr>
+                                        <tr>
+                                            <td height="40"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <table width="480" border="0" cellPadding="0" cellSpacing="0"
+                                                      >
+                                                    <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <table width="220" border="0" cellPadding="0"
+                                                                   cellSpacing="0"
+                                                                   align="right"
+                                                                   className="col" style={{paddingTop: "10px"}}>
+
+                                                                <tbody>
+
+                                                                <tr>
+                                                                    <td style={{
+                                                                        fontSize: "12px",
+                                                                        fontFamily: 'Open Sans, sans-serif',
+                                                                        color: "#5b5b5b",
+                                                                        lineHeight: "0",
+                                                                        verticalAlign: "top",
+                                                                        textAlign: "right"
+                                                                    }}>
+                                                                        <strong>BILLING INFORMATION</strong>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td width="100%" height="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style={{
+                                                                        fontSize: "12px",
+                                                                        fontFamily: 'Open Sans, sans-serif',
+                                                                        color: "#5b5b5b",
+                                                                        lineHeight: "0",
+                                                                        verticalAlign: "top",
+                                                                        textAlign: "right",
+                                                                        paddingTop:"5px"
+                                                                    }}>
+                                                                        <p>  Selopia Ecommerce</p> <br/>
+                                                                        <p style={{
+                                                                            paddingTop:"5px"
+                                                                        }
+
+                                                                        }>Get New Innovation</p>
+                                                                        <p>Bangla Motor</p>
+
+                                                                        <p style={{
+                                                                            paddingTop:"5px"
+                                                                        }
+
+                                                                        }>Dhaka,Bangladesh</p>
+
+                                                                    </td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+
+
+                                                            <table width="220" border="0" cellPadding="0"
+                                                                   cellSpacing="0"
+                                                                   align="right"
+                                                                   className="col">
+                                                                <tbody>
+                                                                <tr className="visibleMobile">
+                                                                    <td height="20"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style={{
+                                                                        fontSize: "12px",
+                                                                        fontFamily: 'Open Sans, sans-serif',
+                                                                        color: "#5b5b5b",
+                                                                        lineHeight: "0",
+                                                                        verticalAlign: "top",
+
+                                                                    }}>
+                                                                        <strong>PAYMENT METHOD</strong>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td width="100%" height="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style={{
+                                                                        fontSize: "12px",
+                                                                        fontFamily: 'Open Sans, sans-serif',
+                                                                        color: "#5b5b5b",
+                                                                        lineHeight: "0",
+                                                                        verticalAlign: "top"
+                                                                    }}>
+                                                                        <p
+                                                                            style={{
+                                                                                color: "rgb(26,33,164)",
+                                                                                textDecoration: "none",
+                                                                                padding:"0 0 0 0 ",
+                                                                                paddingTop:"5px"
+                                                                            }}
+                                                                            href="">credit card</p>
+                                                                        <br/>
+                                                                        <td
+                                                                            style={{
+                                                                                fontSize: "12px",
+                                                                                fontFamily: 'Open Sans, sans-serif',
+                                                                                color: "#5b5b5b",
+                                                                                lineHeight: "0",
+                                                                                verticalAlign: "top" }}
+                                                                        > <p>Visa Card</p> </td> <br/>
+                                                                        <td
+                                                                            style={{
+                                                                                fontSize: "12px",
+                                                                                fontFamily: 'Open Sans, sans-serif',
+                                                                                color: "#5b5b5b",
+                                                                                lineHeight: "0",
+                                                                                verticalAlign: "top" }}
+                                                                        > <p>Visa Card</p> </td>
+
+
+
+                                                                     
+                                                                    </td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tr>
+                                    </tbody>
+                                </table>
+
+
+                                <table width="100%" border="0" cellPadding="0" cellSpacing="0" align="center"
+                                       className="fullTable"
+                                       bgcolor="#e1e1e1">
+
+                                    <tr>
+                                        <td>
+                                            <table width="600" border="0" cellPadding="0" cellSpacing="0" align="center"
+                                                   className="fullTable"
+                                                   bgcolor="#ffffff" style={{borderRadius: "0 0 10px 10px"}}>
+                                                <tr>
+                                                    <td>
+                                                        <table width="480" border="0" cellPadding="0" cellSpacing="0"
+                                                               align="center"
+                                                               className="fullPadding" style={{paddingTop: "10px"}}>
+                                                            <tbody>
+                                                            <tr>
+                                                                <td style={{
+                                                                    fontSize: "9px",
+                                                                    color: "#5b5b5b",
+                                                                    fontFamily: 'Lato, sans-serif',
+                                                                    lineHeight: "18px",
+                                                                    verticalAlign: "top",
+                                                                    textAlign: "center",
+                                                                    paddingBottom: "20px"
+                                                                }}>
+                                                                    All Reserved By Selopia.com
+                                                                </td>
+
+                                                            </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                {/*<tr className="spacer">*/}
+                                                {/*    <td height="50"></td>*/}
+                                                {/*</tr>*/}
+
+                                            </table>
+                                        </td>
+                                    </tr>
+
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
 
 
         </>
