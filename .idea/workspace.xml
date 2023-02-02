@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="59463342-4490-4fea-8902-fbe4a95e5c58" name="Changes" comment="lastpart">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Brand/Brand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Brand/Brand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Templates/Templates.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Templates/Templates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +41,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/selopia/WebstormProjects/react-templates&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/selopia/Downloads/employee-master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -57,7 +62,8 @@
       <workItem from="1674979627112" duration="11968000" />
       <workItem from="1675065324080" duration="13604000" />
       <workItem from="1675145840237" duration="21591000" />
-      <workItem from="1675226000625" duration="6926000" />
+      <workItem from="1675226000625" duration="19026000" />
+      <workItem from="1675337081506" duration="1354000" />
     </task>
     <task id="LOCAL-00001" summary="lastpart">
       <created>1674996666665</created>

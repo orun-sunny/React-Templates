@@ -3,6 +3,7 @@ import './App.css';
 import Templates from "./components/Templates/Templates";
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 import Brand from "./components/Brand/Brand";
+import Crud from "./components/Crud/Crud";
 
 
 function App() {
@@ -14,6 +15,10 @@ function App() {
         {
             path: "brand",
             element: <div> <Brand/>  </div>
+        },
+        {
+            path: "crud",
+            element: <div> <Crud></Crud>  </div>
         },
 
         // <Templates/>

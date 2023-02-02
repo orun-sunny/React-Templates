@@ -77,7 +77,7 @@ const Brand = () => {
 const selectedSubCats = subCategories.filter(subs => +(subs.category_id) === +catId)
 
     return (
-        <div>
+        <div className="padding-left:16px">
             <h1>Brand: {brands.length}</h1>
             <form onSubmit={handleSubmit(onSubmit)}>
                 {/*<select {...register("category_id")} defaultValue={0}>*/}
