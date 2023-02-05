@@ -981,7 +981,7 @@ const Templates = () => {
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <table width="480" border="0" cellPadding="0" cellSpacing="0"
+                                                    <table width="510" border="0" cellPadding="0" cellSpacing="0"
                                                     >
                                                         <tbody>
                                                         <tr>
@@ -1006,7 +1006,7 @@ const Templates = () => {
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td width="100%" height="10"></td>
+                                                                        <td width="100%" height="20"></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td style={{
@@ -1020,7 +1020,7 @@ const Templates = () => {
                                                                         }}>
                                                                             <p> Selopia Ecommerce</p> <br/>
                                                                             <p style={{
-                                                                                paddingTop: "5px"
+                                                                                paddingTop: "2px"
                                                                             }
 
                                                                             }>Get New Innovation</p>
@@ -1044,7 +1044,7 @@ const Templates = () => {
                                                                        className="col">
                                                                     <tbody>
                                                                     <tr className="visibleMobile">
-                                                                        <td height="20"></td>
+                                                                        <td height="13"></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td style={{
@@ -1059,7 +1059,7 @@ const Templates = () => {
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td width="100%" height="10"></td>
+                                                                        <td width="100%" height="13"></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td style={{
@@ -1096,7 +1096,9 @@ const Templates = () => {
                                                                                     lineHeight: "0",
                                                                                     verticalAlign: "top"
                                                                                 }}
-                                                                            ><p>Visa Card</p></td>
+                                                                            ><p>Visa Card</p>
+                                                                                <tr><p>Visa Card</p></tr>
+                                                                            </td>
 
 
                                                                         </td>
