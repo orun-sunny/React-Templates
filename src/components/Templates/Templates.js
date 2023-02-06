@@ -1009,6 +1009,7 @@ const Templates = () => {
                                                                         <td width="100%" height="20"></td>
                                                                     </tr>
                                                                     <tr>
+                                                                        {/*table part*/}
                                                                         <td style={{
                                                                             fontSize: "12px",
                                                                             fontFamily: 'Open Sans, sans-serif',
