@@ -4,6 +4,7 @@ import Templates from "./components/Templates/Templates";
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 import Brand from "./components/Brand/Brand";
 import Crud from "./components/Crud/Crud";
+import Shop from "./components/Shop/Shop";
 
 
 function App() {
@@ -20,6 +21,10 @@ function App() {
             path: "crud",
             element: <div> <Crud></Crud>  </div>
         },
+        {
+            path: "shop",
+            element: <div> <Shop></Shop>  </div>
+        },
 
         // <Templates/>
     ])
@@ -28,6 +33,8 @@ function App() {
         <RouterProvider router={router} ></RouterProvider>
 
 {/*<Templates/>*/}
+
+
     </div>
   );
 }
