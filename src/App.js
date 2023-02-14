@@ -5,6 +5,7 @@ import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 import Brand from "./components/Brand/Brand";
 import Crud from "./components/Crud/Crud";
 import Shop from "./components/Shop/Shop";
+import PageNotFound from "./components/PageNotFound/PageNotFound";
 
 
 function App() {
@@ -24,6 +25,10 @@ function App() {
         {
             path: "shop",
             element: <div> <Shop></Shop>  </div>
+        },
+        {
+            path: "*",
+            element: <div><PageNotFound></PageNotFound></div>
         },
 
         // <Templates/>
